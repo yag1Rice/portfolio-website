@@ -1,7 +1,4 @@
-// import { useState } from 'react'
-// import heroImg from './assets/hero.png'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from './assets/vite.svg'
+import TiltPhoto from "../components/TiltPhoto";
 
 function About() {
   return (
@@ -16,6 +13,10 @@ function About() {
         <p className="text-slate-300 text-lg max-w-md">
           Sonion is a software engineer with a passion for building web applications. He has experience in React, TypeScript, and Node.js, and enjoys working on both front-end and back-end development. In his free time, he likes to contribute to open-source projects and explore new technologies.
         </p>
+      </div>
+
+      <div>
+        <TiltPhoto />
       </div>
     </div>
     )

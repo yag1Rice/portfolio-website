@@ -4,7 +4,7 @@
 // import viteLogo from './assets/vite.svg'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from './pages/Homes'
+import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Fun from './pages/Fun'
