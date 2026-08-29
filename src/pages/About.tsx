@@ -21,9 +21,7 @@ function About() {
 
   // Not sure what this does {
   const [hoveredDot, setHoveredDot] = useState<any>(null);
-  // const [selectedDot, setSelectedDot] = useState<any>(null);
-  const [, setSelectedDot] = useState<any>(null);
-
+  const [selectedDot, setSelectedDot] = useState<any>(null);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
