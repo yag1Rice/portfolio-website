@@ -1,0 +1,196 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 61.8% 38.2%;
+  grid-template-rows: 1fr;
+  gap: 0;
+  background-color: #0a0a0a;
+  width: 100vw;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+}
+
+
+.cell2 {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.rightCell {
+  display: grid;
+  grid-template-rows: 61.8% 38.2%;
+  gap: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.cell3 {
+  font-family: var(--font-roboto-mono);
+  font-size: 0.875rem;
+  color: #ededed;
+  line-height: 1.6;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.descriptionLink {
+  color: #00ff00;
+}
+
+.linksSection {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  display: grid;
+  grid-template-columns: 38.2% 61.8%;
+  gap: 0;
+}
+
+.linksContainer {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  display: grid;
+  grid-template-rows: 38.2% 61.8%;
+  gap: 0;
+  min-height: 0;
+}
+
+.linksTop {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  display: grid;
+  grid-template-columns: 61.8% 38.2%;
+  gap: 0;
+  min-height: 0;
+}
+
+.cell6 {
+  padding: 1rem;
+  font-family: var(--font-roboto-mono);
+  font-size: 0.875rem;
+  color: #00ff00;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  justify-content: center;
+}
+
+.linksTopRight {
+  display: grid;
+  grid-template-rows: 61.8% 38.2%;
+  gap: 0;
+  min-height: 0;
+}
+
+.cell7 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+
+.linksTopRightBottom {
+  display: grid;
+  grid-template-columns: 38.2% 61.8%;
+  gap: 0;
+  min-height: 0;
+}
+
+.cell8 {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+
+.cell9 {
+  /* Empty cell */
+  display: block;
+}
+
+.orbitalImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(3);
+}
+
+.pulsarMap {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(1.4);
+}
+
+.cell5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radarLogo {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.globeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.globeLabel {
+  min-height: 2em;
+  font-family: var(--font-roboto-mono);
+  font-size: 0.875rem;
+  text-align: center;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.globeLabelLocation {
+  color: #00ff00;
+}
+
+.globeLabelSubtitle {
+  color: rgba(0, 255, 0, 0.6);
+}
+
+.globeLabelDescription {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cell4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.link {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+
+

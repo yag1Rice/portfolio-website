@@ -1,14 +1,14 @@
-// import { useState } from 'react'
-// import heroImg from './assets/hero.png'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from './assets/vite.svg'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Fun from './pages/Fun'
+import Experience from './pages/Experience'
+import Blog from './pages/Blog'
+import Publications from './pages/Publications'
+
 import Navbar from './components/Navbar'
+
 import './App.css'
 
 
@@ -18,15 +18,15 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/fun" element={<Fun />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
-
-    
   );
 }
 

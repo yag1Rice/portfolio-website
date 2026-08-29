@@ -1,8 +1,7 @@
 import { useState , useRef, useCallback } from 'react'
-import myself from '../assets/myself.jpg'
 
 
-function TiltPhoto({ src = myself, alt = "Picture of Me!" }: { src?: string; alt?: string }) {
+function TiltPhoto({ src, alt}: { src: string; alt?: string }) {
   const containerRef = useRef<HTMLDivElement>(null)
   const [tilt, setTilt] = useState({ x: 0, y: 0 })
   const [isHovered, setIsHovered] = useState(false)

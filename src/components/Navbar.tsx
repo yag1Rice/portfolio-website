@@ -1,10 +1,12 @@
 import {Link} from "react-router-dom";
 
 const navLinks = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/contact", label: "Contact" },
+  { to: "/", label: "About" },
+  { to: "/experience", label: "Experience" },
   { to: "/fun", label: "Fun" },
+  {to: "/blog", label: "Blog"},
+  {to: "/publications", label: "Publications"},
+  { to: "/contact", label: "Contact" },
 ];
 
 function Navbar() {
