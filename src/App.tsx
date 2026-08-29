@@ -9,7 +9,6 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Fun from './pages/Fun'
 import Navbar from './components/Navbar'
-
 import './App.css'
 
 
