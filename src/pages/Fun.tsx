@@ -21,11 +21,11 @@ function Fun() {
   }, []);
 
   return (
-    <>
-    <div className={david_styles.cell4}>
-            <ChessBoard />
-          </div>
-    </>
+    <div className="min-h-screen bg-slate-950 text-white">
+      <div className={david_styles.cell4}>
+        <ChessBoard />
+      </div>
+    </div>
   )
 }
 
