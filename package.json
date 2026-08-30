@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-three/drei": "^10.7.8",
     "@tailwindcss/vite": "^4.3.3",
+    "chess.js": "^1.4.0",
     "framer-motion": "^13.1.1",
     "lucide-react": "^1.35.0",
     "react": "^19.2.8",

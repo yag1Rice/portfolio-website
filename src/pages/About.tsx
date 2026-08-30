@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import TiltPhoto from "../components/TiltPhoto";
-import styles from '../styles/david_page.module.css';
+import david_styles from '../styles/david_page.module.css';
 import Globe from "../components/Globe";
 import myself from '../assets/myself.jpg'
 
@@ -50,9 +50,9 @@ function About() {
         <TiltPhoto src={myself} alt="Picture of Me!" />
       </div>
 
-      <div className={styles.globeWrapper}>
-        <div className={styles.globeLabel}>
-          {hoveredDot && <><span className={styles.globeLabelLocation}>{hoveredDot.label}</span><span className={styles.globeLabelSubtitle}>{hoveredDot.subtitle}</span><span className={styles.globeLabelDescription}>{hoveredDot.description}</span></>}
+      <div className={david_styles.globeWrapper}>
+        <div className={david_styles.globeLabel}>
+          {hoveredDot && <><span className={david_styles.globeLabelLocation}>{hoveredDot.label}</span><span className={david_styles.globeLabelSubtitle}>{hoveredDot.subtitle}</span><span className={david_styles.globeLabelDescription}>{hoveredDot.description}</span></>}
         </div>
         <Globe size={isMobile ? 300 : 500} dots={dots} onDotClick={setSelectedDot} onDotHover={setHoveredDot} dotSizeMultiplier={0.3} />
       </div>
